@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 
 
-# db.drop_all()
-# db.create_all()
 
+from app import db
+
+
+db.drop_all()
+db.create_all()
